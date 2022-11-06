@@ -1,10 +1,9 @@
 {
   "ts-node": {
-    "esm": true,
     "swc": true,
   },
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "CommonJS",
     "target": "ES2020",
     "lib": ["ESNext"],
     "sourceMap": true,
@@ -19,5 +18,6 @@
     "skipLibCheck": true,
     "useUnknownInCatchVariables": false,
   },
-  "include": ["src/server", "src/socket"],
+  "include": ["src/server"],
+  "exclude": ["**/__tests__/**"],
 }

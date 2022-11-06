@@ -2,7 +2,7 @@
   "name": "vite-test",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "prettier": "eslint-config-erich/.prettierrc.js",
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
