@@ -1,9 +1,12 @@
-# Logs
 logs
 *.log
 npm-debug.log*
-/tmp/
-node_modules
-dist
-dist-ssr
+/dist/
+/dist-ssr/
 *.local
+/tmp/
+node_modules/
+/coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
