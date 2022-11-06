@@ -1,0 +1,7 @@
+{
+  "references": [
+    { "path": "./tsconfig.project.json" },
+    { "path": "./tsconfig.server.json" },
+    { "path": "./tsconfig.vite.json" },
+  ]
+}
